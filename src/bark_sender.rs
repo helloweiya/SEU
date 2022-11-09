@@ -1,5 +1,5 @@
 use anyhow::Result;
-use reqwest::{Error, StatusCode};
+use reqwest::{StatusCode};
 use crate::notify::Notify;
 pub struct BarkSender{
     url: String,
